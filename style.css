@@ -1,0 +1,73 @@
+#main-nav-bar {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+#quiensoy {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#certificated {
+
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+#experience {
+
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#level-table {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#format {
+
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#commits {
+
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#qanda{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
