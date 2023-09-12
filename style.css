@@ -71,3 +71,7 @@ tr:nth-child(even) {
     justify-content: center;
     margin-top: 50px;
 }
+
+.card-img{
+    filter: brightness(0.7);
+}

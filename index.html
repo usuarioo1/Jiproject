@@ -11,15 +11,38 @@
 </head>
 
 <body>
-    <header id="nav-bar">
-        <nav id="main-nav-bar">
-            <a href="">Sobre Mí</a>
-            <a href="">Certificacion</a>
-            <a href="">Expeciencia</a>
-            <a href="">Descargas</a>
-            <a href="">Proyectos</a>
-        </nav>
-    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <main>
 
         <div id="quiensoy">
@@ -138,19 +161,54 @@
 
         </table>
 
-
-        <div id="format">
-            <h1>Formato</h1>
-            <ul>
-                <li>Dedicación semanal: una vez a la semana durante 1,5 hora.</li>
-                <li>Modalidad: Remota/online (zoom).</li>
-                <li>Horario: a convenir.</li>
-            </ul>
-        </div>
-
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6"> <!-- Ajusta el tamaño de la columna según tus necesidades -->
+                <div class="card bg-dark text-white">
+                  <img src="./assets/landscape.jpg" class="card-img w-100 h-100" alt="...">
+                  <div class="card-img-overlay text-center">
+                    <h5 class="card-title fs-1">Formato</h5>
+                    <p class="card-text fs-3">Dedicación semanal: una vez a la semana durante 1,5 hora.</p>
+                    <p class="card-text fs-3">Modalidad: Remota/online (zoom).</p>
+                    <p class="card-text fs-3">Horario: a convenir.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+      
         <div id="commits">
             <h1>Testimonios</h1>
         </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner align-items-center">
+              <div class="carousel-item active">
+                <img src="./assets/t1.JPG" class="d-block mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/t2.JPG" class="d-block mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/t3.JPG" class="d-block mx-auto" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
         <div id="qanda">
             <h1>Q&A</h1>
