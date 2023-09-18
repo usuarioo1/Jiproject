@@ -62,7 +62,7 @@ tr:nth-child(even) {
 
 }
 
-#qanda{
+#qanda {
     width: auto;
     height: auto;
     margin: 0 auto;
@@ -72,12 +72,18 @@ tr:nth-child(even) {
     margin-top: 50px;
 }
 
-.card-img{
+.card-img {
     filter: brightness(0.7);
 }
 
 .navbar-nav .nav-link {
-    margin-right: 20px; /* Ajusta el valor según el espacio deseado entre las etiquetas */
+    margin-right: 20px;
+    /* Ajusta el valor según el espacio deseado entre las etiquetas */
     margin-left: 250px;
-   
+
+}
+
+.card-img-custom {
+    width: 100px;
+    height: 300px;
 }
