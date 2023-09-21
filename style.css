@@ -61,10 +61,10 @@ tr:nth-child(even) {
 
 }
 
-hr{
+/* hr{
     margin-top: -10px !important;
     margin-bottom: -10px !important;
-}
+} */
 
 #qanda {
     width: auto;
@@ -94,4 +94,9 @@ hr{
 
 .card-group{
     margin-top: 100px !important;
+}
+
+.btn{
+    margin-top: 20px;
+    border-radius: 20px !important;
 }
